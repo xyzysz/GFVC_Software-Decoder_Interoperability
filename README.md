@@ -20,7 +20,7 @@ In details, we provide the specific introductions about the hyper parameters and
 -	`--quantization_factor`: the quantization factor for the type conversion (i.e., from float-type to int-type) for the residual of feature parameter 
 -	`--Iframe_QP`: the quantization parameter for encoding the base picture
 -	`--Iframe_format`: the coded color format for the base picture, e.g., YUV 420 or RGB 444
--	***`--Encoder_type`: the encode type signal for GFVC decoding. For a given type of decoder, if the encoder type is mismatched, the corresponding face parameter translator will be loaded and implemented.***
+-	***`--Encoder_type`: the encoder type signal for GFVC decoding. For a given type of decoder, if the encoder type is mismatched, the corresponding face parameter translator will be loaded and implemented.***
 
 It is recommended to run `RUN_Encode.py` and `RUN_Decode.py` for execution, where the desired encoding/decoding settings can be specified. Alternatively, `RUN_Encoder.sh` and `RUN_Decoder.sh` can be executed with above-mentioned hyper parameters specified in command lines.
 
