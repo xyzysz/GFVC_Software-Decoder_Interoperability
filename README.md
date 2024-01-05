@@ -24,6 +24,13 @@ In details, we provide the specific introductions about the hyper parameters and
 
 It is recommended to run `RUN_Encode.py` and `RUN_Decode.py` for execution, where the desired encoding/decoding settings can be specified. Alternatively, `RUN_Encoder.sh` and `RUN_Decoder.sh` can be executed with above-mentioned hyper parameters specified in command lines.
 
+# Acknowledgement
+We really appreciate all authors for making their codes available to public.
+- [GFVC_Software](https://github.com/Berlin0610/GFVC_Software/tree/main).
+- The GFVC software package includes [FOMM](https://github.com/AliaksandrSiarohin/first-order-model), [CFTE](https://github.com/Berlin0610/CFTE_DCC2022) and [FV2V](https://github.com/zhanglonghao1992/One-Shot_Free-View_Neural_Talking_Head_Synthesis). 
+- The testing dataset is sourced and preprocessed from [VoxCeleb](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/) and [CFVQA](https://github.com/Yixuan423/Compressed-Face-Videos-Quality-Assessment).
+- The quality assessment metrics include [DISTS](https://github.com/dingkeyan93/DISTS) and [LPIPS](https://github.com/richzhang/PerceptualSimilarity).
+
 # BibTeX
 ```
 @inproceedings{yin2024,
@@ -33,3 +40,7 @@ It is recommended to run `RUN_Encode.py` and `RUN_Decode.py` for execution, wher
             year={2024}
           }
 ```
+
+### :e-mail: Contact
+
+If you have any question or collaboration need (research purpose or commercial purpose), please email `shanzhyin3-c@my.cityu.edu.hk`
